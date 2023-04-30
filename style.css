@@ -31,9 +31,7 @@ header{
     padding: 0px 40px 0px 40px;
    
  }
-main{
-    background-color: var(--jet);
-}
+ 
 .logo {
     height: 60%;
 }
