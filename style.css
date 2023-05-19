@@ -11,7 +11,7 @@
     --outer-space: #495057ff;
     --onyx: #343a40ff;
     --eerie-black: #212529ff;
-    
+
 
 
     /* VIOLETAS */
@@ -42,19 +42,22 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 65px;
     padding: 0px 40px 0px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
 }
 
 .logo {
     height: 80%;
-    padding-top: 4px;
+    margin-top: 9px;
 }
 
 .cart-icon {
     height: 50%;
+    cursor: pointer;
 }
 
 .navbar,
@@ -90,7 +93,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 80px 0px 80px;
 }
 
 #hero {
@@ -106,21 +109,23 @@ main {
     display: flex;
     flex-direction: column;
     gap: 19px;
-    width: 75%;
+    width: 100%;
 }
 
 .hero-info h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 55px;
     width: 80%;
     min-width: 500px;
 }
 
 .hero-info p {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 300;
-    width: 70%;
+    width: 100%;
     color: var(--eerie-black);
+    margin-bottom: 10px;
+    min-width: 500px;
 }
 
 
@@ -133,14 +138,14 @@ main {
     padding: 8px 20px;
     border-radius: 20px;
     font-size: 25px;
-    
+
 
 }
 
 .hero-card {
-    width: 350px;
+    width: 300px;
     background: white;
-    padding: 7px;
+    padding: 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -153,6 +158,10 @@ main {
     text-align: center;
     align-items: center;
     gap: 25px;
+}
+
+.hero-button a {
+    font-size: 25px;
 }
 
 .hero-button li:first-child>a {
@@ -173,23 +182,152 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 60px;
+    padding: 20px;
 }
 
 .about-info h2 {
-font-weight: 700;
-font-size: 50px;
-min-width: 500px;
+    font-weight: 600;
+    font-size: 50px;
+    min-width: 500px;
 }
 
 .about-info p {
     font-weight: 300;
     font-size: 22px;
-    margin-top: 20px;
-    
+    margin-top: 10px;
+
 }
 
 .about-info span {
     color: var(--tekhelet);
     font-weight: bolder;
 }
+
+.cards-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cards-info h2 {
+    font-weight: 700;
+    font-size: 50px;
+    min-width: 500px;
+}
+
+.cards-info p {
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+#cards {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+}
+#cards h3 {
+    font-size: 25px;
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+}
+
+.cards-info h2 {
+    min-width: 500px;
+}
+.cards-info p {
+    min-width: 500px;
+}
+
+
+.card-settings {
+    height: 280px;
+    width: 280px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--tekhelet);
+    border-radius: 20px;
+}
+
+.card-settings p {
+    font-weight: 300;
+    padding-top: 6px;
+}
+.card-settings img {
+ 
+    width: 60px;
+}
+
+#contactos h2 {
+    font-size: 50px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.contact-info h3 {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    height: 10%;
+    width: 110%;
+    background: var(--tekhelet);
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-radius: 13px;
+}
+
+.contact-1 img {
+    height: 30px;
+}
+.contact-2 img {
+    height: 30px;
+}
+
+.img-config {
+    width: 300px;
+    height: 300px;
+}
+
+.img-contact {
+    height: 200px;
+    width: 350px;
+    background: white;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    background: var(--eerie-black);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--outer-space);
+    height: 120px;
+    margin-top: 50px;
+}
+
+.imagen-footer {
+    margin-top: 20px;
+}
+

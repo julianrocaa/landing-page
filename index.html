@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NUCBA Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 
 
 <body>
     <header>
-        <img src="assets/logo.png" alt="Loud logo" class="logo">
-
+        <img src="assets/logo.png" alt="Loud logo" class="logo" />
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="assets/menu.png" alt="" class="menu-icon" />
+            </label>
+            <input type="checkbox" id="menu-toggle" />
+
             <ul class="navbar-list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Noticias</a></li>
@@ -22,9 +27,11 @@
                 <li><a href="#">Soporte</a></li>
                 <li><a href="#">Cuenta</a></li>
             </ul>
-        </nav>
-        <img src="assets/icons8-carrito-de-compras-30.png" alt="Carrito de compras" class="cart-icon">
 
+            <label for="cart-toggle" class="cart-label">
+                <img src="assets/icons8-carrito-de-compras-30.png" alt="Carrito de compras" class="cart-icon">
+            </label>
+        </nav>
     </header>
 
     <main>
@@ -51,12 +58,86 @@
 
         <section id="about">
             <div class="about-info">
-            <h2>¿Quienes somos?</h2>
-            <p>Somos una pequeña empresa Argetina que ama la música tanto como vos. Nuestro objetivo es difundir por todo el mundo nuestra pasión por este hermoso arte. Trayendo todo sobre lo nuevo de la industria y actualidad. Pero tampoco nos olvidamos de los amantes de las costumbres, ya que disponemos de una gran coleccion de discos, vinilos y casettes para los fanáticos de lo clásico. Si estás tan loco por la musica como nosotros <span>¡Sumate ahora a esta hermosa comunidad!</span> </p>
+                <h2>¿Quienes somos?</h2>
+                <p>Somos una pequeña empresa Argetina que ama la música tanto como vos. Nuestro objetivo es difundir por
+                    todo el mundo nuestra pasión por este hermoso arte. Trayendo todo sobre lo nuevo de la industria y
+                    actualidad. Pero tampoco nos olvidamos de los amantes de las costumbres, ya que disponemos de una
+                    gran coleccion de discos, vinilos y casettes para los fanáticos de lo clásico. Si estás tan loco por
+                    la musica como nosotros <span>¡Sumate ahora a esta hermosa comunidad!</span> </p>
             </div>
         </section>
 
+        <section>
+            <div class="cards-info">
+                <h2>¿Por qué elegirnos?</h2>
+                <p>A pesar de ser una pequeña empresa y "nueva" en el mercado, tenemos un abanico de ventajas y
+                    benefecios sobre el resto</p>
+            </div>
+<div class="info-card-conatiner">
+            <div id="cards">
+                <div class="card-settings">
+                    <img src="assets/cards benefits/icons8-listening-to-music-on-headphones-100.png" alt="beneficio 1">
+                    <h3>Periodismo Serio</h3>
+                    <p>Nada de noticias falsas, rumores sin fuentes, clickbaits o amarillismo. Aquí publicamos todo lo
+                        nuevo en tiempo real y basados en fuentes confiables que tenemos. Acá se habla de MÚSICA.</p>
+                </div>
+                <div class="card-settings">
+                    <img src="assets/cards benefits/icons8-music-festival-100.png" alt="beneficio 2">
+                    <h3>Conciertos</h3>
+                    <p>Tenemos coberturas exclusivas de los conciertos de tus artistas favoritos, ademas de beneficios
+                        exlusivos para los mismos como preventas de entradas, sorteos y mucho más. </p>
+                </div>
+                <div class="card-settings">
+                    <img src="assets/cards benefits/icons8-grabar-música-100.png" alt="beneficio 3">
+                    <h3>Alta Fidelidad</h3>
+                    <p>Ofrecemos una de las colecciones mas grandes de vinilos, cd´s y casettes NUEVOS del país, para que
+                        puedas escucharlos donde quieras y con la mejor calidad. </p>
+                </div>
+            </div>
+         </div>
+        </section>
+
+
+        <section id="contactos">
+            <h2>¡Contáctanos!</h2>
+            <div class="contact-info">
+                <div>
+                    <div class="contact-1">
+                        <h3>Madrid, España</h3>
+                        <p><img src="assets/contactanos/icons8-marker-o-100.png" alt="calle"> Calle falsa 123</p>
+                        <p><img src="assets/contactanos/icons8-correo-100.png" alt="correo"> loudespaña@loud.com.es</p>
+                        <p><img src="assets/contactanos/icons8-teléfono-celular-100.png" alt="telefono">+34 000 18 12 22
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-2">
+                        <h3>Palermo, Buenos Aires</h3>
+                        <p><img src="assets/contactanos/icons8-marker-o-100.png" alt="calle"> Calle falsa 321</p>
+                        <p><img src="assets/contactanos/icons8-correo-100.png" alt="correo"> loudargetina@loud.com.ar
+                        </p>
+                        <p><img src="assets/contactanos/icons8-teléfono-celular-100.png" alt="telefono">+011 2606 2011
+                        </p>
+                    </div>
+                </div>
+                <div class="img-config">
+                    <div class="img-contact">
+                        <img src="assets/cards benefits/447_image-2019-06-24.png" alt="oficinas">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
     </main>
+    <footer>
+        <div class="imagen-footer">
+            <img src="assets/LOGO.png" alt="Logo footer">
+            <p>Copyright - Loud Entertainment®</p>
+        </div>
+    </footer>
 
 </body>
 
