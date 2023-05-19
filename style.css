@@ -195,7 +195,7 @@ main {
     font-weight: 300;
     font-size: 22px;
     margin-top: 10px;
-
+    
 }
 
 .about-info span {
@@ -214,7 +214,6 @@ main {
 .cards-info h2 {
     font-weight: 700;
     font-size: 50px;
-    min-width: 500px;
 }
 
 .cards-info p {
